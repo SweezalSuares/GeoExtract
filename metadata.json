@@ -1,0 +1,6 @@
+{
+  "name": "GeoExtract - Visual OpenStreetMap Bounding Box & Data Export",
+  "description": "FSD LAB CIA 1: Interactive visual bounding box selector, real-time spatial analytics, and multi-format geospatial data extraction for OpenStreetMap.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

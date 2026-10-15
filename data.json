@@ -1,0 +1,284 @@
+{
+  "project": "FSD LAB CIA 1 - OpenStreetMap Benchmark Analysis",
+  "version": "1.0.0",
+  "description": "Sample OpenStreetMap dataset demonstrating Fetch API with JSON data handling, forward geocoding presets, and extracted geospatial features.",
+  "timestamp": "2026-10-15T02:00:00Z",
+  "locations": [
+    {
+      "id": "loc-1",
+      "name": "Bengaluru",
+      "region": "Karnataka, India",
+      "lat": 12.9716,
+      "lon": 77.5946,
+      "type": "city",
+      "category": "administrative",
+      "bbox": [12.9550, 77.5750, 12.9900, 77.6200],
+      "presetRadiusKm": 2.5,
+      "description": "Tech hub of India with dense urban landmarks and transit hubs.",
+      "pois": [
+        {
+          "id": 91001,
+          "name": "Vidhana Soudha Secretariat",
+          "category": "tourism",
+          "subtype": "attraction",
+          "lat": 12.9797,
+          "lon": 77.5907,
+          "tags": { "tourism": "attraction", "historic": "monument" }
+        },
+        {
+          "id": 91002,
+          "name": "Cubbon Park Botanical Garden",
+          "category": "leisure",
+          "subtype": "park",
+          "lat": 12.9763,
+          "lon": 77.5929,
+          "tags": { "leisure": "park", "access": "yes" }
+        },
+        {
+          "id": 91003,
+          "name": "MG Road Metro Terminal",
+          "category": "amenity",
+          "subtype": "transit_station",
+          "lat": 12.9754,
+          "lon": 77.6066,
+          "tags": { "amenity": "transit_station", "railway": "subway" }
+        },
+        {
+          "id": 91004,
+          "name": "Visvesvaraya Industrial Museum",
+          "category": "tourism",
+          "subtype": "museum",
+          "lat": 12.9752,
+          "lon": 77.5963,
+          "tags": { "tourism": "museum", "fee": "yes" }
+        }
+      ]
+    },
+    {
+      "id": "loc-2",
+      "name": "London",
+      "region": "Greater London, United Kingdom",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "type": "capital_city",
+      "category": "administrative",
+      "bbox": [51.4980, -0.1450, 51.5180, -0.1100],
+      "presetRadiusKm": 1.5,
+      "description": "Historic capital featuring dense POIs, heritage monuments, and river walkways.",
+      "pois": [
+        {
+          "id": 90101,
+          "name": "National Modern Art Gallery",
+          "category": "tourism",
+          "subtype": "museum",
+          "lat": 51.5089,
+          "lon": -0.1283,
+          "tags": { "tourism": "museum", "wheelchair": "yes" }
+        },
+        {
+          "id": 90102,
+          "name": "Covent Garden Artisan Espresso",
+          "category": "amenity",
+          "subtype": "cafe",
+          "lat": 51.5118,
+          "lon": -0.1226,
+          "tags": { "amenity": "cafe", "takeaway": "yes" }
+        },
+        {
+          "id": 90103,
+          "name": "St. Thomas Health Center & Clinic",
+          "category": "amenity",
+          "subtype": "hospital",
+          "lat": 51.5005,
+          "lon": -0.1195,
+          "tags": { "amenity": "hospital", "emergency": "yes" }
+        },
+        {
+          "id": 90104,
+          "name": "Westminster Civic Metro Terminal",
+          "category": "amenity",
+          "subtype": "transit_station",
+          "lat": 51.5014,
+          "lon": -0.1248,
+          "tags": { "amenity": "transit_station", "railway": "subway" }
+        }
+      ]
+    },
+    {
+      "id": "loc-3",
+      "name": "Paris",
+      "region": "Île-de-France, France",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "type": "capital_city",
+      "category": "administrative",
+      "bbox": [48.8450, 2.3300, 48.8680, 2.3750],
+      "presetRadiusKm": 1.8,
+      "description": "Iconic city center with museums, cafe terraces, and tourism corridors.",
+      "pois": [
+        {
+          "id": 92001,
+          "name": "Louvre Museum of Art",
+          "category": "tourism",
+          "subtype": "museum",
+          "lat": 48.8606,
+          "lon": 2.3376,
+          "tags": { "tourism": "museum", "wheelchair": "yes" }
+        },
+        {
+          "id": 92002,
+          "name": "Notre-Dame Cathedral Heritage",
+          "category": "tourism",
+          "subtype": "attraction",
+          "lat": 48.8530,
+          "lon": 2.3499,
+          "tags": { "tourism": "attraction", "historic": "church" }
+        },
+        {
+          "id": 92003,
+          "name": "Châtelet Metro Interchange Hub",
+          "category": "amenity",
+          "subtype": "transit_station",
+          "lat": 48.8587,
+          "lon": 2.3470,
+          "tags": { "amenity": "transit_station" }
+        }
+      ]
+    },
+    {
+      "id": "loc-4",
+      "name": "Tokyo",
+      "region": "Kanto, Japan",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "type": "metropolis",
+      "category": "administrative",
+      "bbox": [35.6550, 139.6900, 35.6950, 139.7250],
+      "presetRadiusKm": 2.0,
+      "description": "High-density metropolis with railway terminals, retail hubs, and parks.",
+      "pois": [
+        {
+          "id": 93001,
+          "name": "Shibuya Crossing Plaza",
+          "category": "tourism",
+          "subtype": "attraction",
+          "lat": 35.6595,
+          "lon": 139.7005,
+          "tags": { "tourism": "attraction" }
+        },
+        {
+          "id": 93002,
+          "name": "Shinjuku Gyoen National Garden",
+          "category": "leisure",
+          "subtype": "park",
+          "lat": 35.6852,
+          "lon": 139.7101,
+          "tags": { "leisure": "park", "fee": "yes" }
+        },
+        {
+          "id": 93003,
+          "name": "Tokyo Metropolitan Government Observatories",
+          "category": "tourism",
+          "subtype": "viewpoint",
+          "lat": 35.6895,
+          "lon": 139.6917,
+          "tags": { "tourism": "viewpoint" }
+        }
+      ]
+    }
+  ],
+  "samplePOIs": [
+    {
+      "id": 90101,
+      "type": "node",
+      "name": "National Modern Art Gallery",
+      "category": "tourism",
+      "subtype": "museum",
+      "lat": 51.5089,
+      "lon": -0.1283,
+      "tags": {
+        "tourism": "museum",
+        "opening_hours": "10:00-18:00",
+        "wheelchair": "yes",
+        "fee": "no"
+      }
+    },
+    {
+      "id": 90102,
+      "type": "node",
+      "name": "Covent Garden Artisan Espresso",
+      "category": "amenity",
+      "subtype": "cafe",
+      "lat": 51.5118,
+      "lon": -0.1226,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "id": 90103,
+      "type": "node",
+      "name": "St. Thomas Health Center & Clinic",
+      "category": "amenity",
+      "subtype": "hospital",
+      "lat": 51.5005,
+      "lon": -0.1195,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "id": 90104,
+      "type": "node",
+      "name": "Westminster Civic Metro Terminal",
+      "category": "amenity",
+      "subtype": "transit_station",
+      "lat": 51.5014,
+      "lon": -0.1248,
+      "tags": {
+        "amenity": "transit_station",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "id": 90105,
+      "type": "way",
+      "name": "The King's Way Promenade",
+      "category": "highway",
+      "subtype": "pedestrian",
+      "lat": 51.5140,
+      "lon": -0.1190,
+      "tags": {
+        "highway": "pedestrian",
+        "surface": "paving_stones",
+        "lit": "yes"
+      }
+    },
+    {
+      "id": 90106,
+      "type": "node",
+      "name": "Riverfront Botanical Gardens",
+      "category": "leisure",
+      "subtype": "park",
+      "lat": 51.5060,
+      "lon": -0.1160,
+      "tags": {
+        "leisure": "park",
+        "access": "permissive",
+        "dog": "leashed"
+      }
+    }
+  ],
+  "spatialBenchmarks": {
+    "recommendedMaxAreaKm2": 25.0,
+    "warningThresholdKm2": 50.0,
+    "averageNodesPerKm2": 1400,
+    "averageBytesPerNode": 350
+  }
+}
